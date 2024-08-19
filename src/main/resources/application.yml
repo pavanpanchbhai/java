@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active : dev
+    mongodb:
+      uri: mongodb+srv://linuxmio:bantywithmoney@cluster0.kwfqz4b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database : journaldb
+      auto-index-creation: true
+      logging:
+        level:
+          com:
+            example:
+              myJournalapp: ERROR
